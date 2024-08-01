@@ -9,3 +9,6 @@
 function add(a, b) {
     return a + b;
 }
+
+const result1 = add(1, 2);
+// const result2 = add(1, 'asd');
