@@ -7,7 +7,7 @@
  * @returns {number} The sum of the two numbers.
  */
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 
 const result1 = add(1, 2);
