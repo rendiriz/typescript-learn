@@ -15,6 +15,8 @@ type TCar = {
 // type TCar = {
 //   model: string;
 // };
+
+// type TCarJoined = TCar;
 type TCarJoined = TCar & { model: string };
 
 const result1: ICar = { brand: "Toyota", model: "Corolla" };
