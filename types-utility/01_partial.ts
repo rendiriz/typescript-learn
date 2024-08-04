@@ -6,10 +6,10 @@ interface User {
 
 function createUser(user: Partial<User>): User {
   return {
-    ...user,
     name: "John Doe",
     age: 30,
     email: "john.doe@example.com",
+    ...user,
   };
 }
 
