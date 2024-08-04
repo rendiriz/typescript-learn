@@ -19,3 +19,6 @@ const todoInfo: TodoInfo = {
   title: "Pick up kids",
   description: "Kindergarten closes at 5pm",
 };
+
+console.log(todo); // Output: { title: 'Clean room', completed: false, createdAt: 1615544252770 }
+console.log(todoInfo); // Output: { title: 'Pick up kids', description: 'Kindergarten closes at 5pm' }

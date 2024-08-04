@@ -15,4 +15,4 @@ function createUser(user: Partial<User>): User {
 
 const newUser = createUser({ name: "Jane Doe" });
 
-console.log(newUser);
+console.log(newUser); // Output: { name: 'Jane Doe', age: 30, email: 'john.doe@example.com' }
